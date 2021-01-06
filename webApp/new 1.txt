@@ -1,0 +1,32 @@
+https://hefadr6unc.execute-api.us-east-1.amazonaws.com/dev
+
+
+{
+	"destinationId" : "$input.params('destinationID')",
+    "destinationName" : "$input.params('destinationName')",
+	"destinationState": "$input.params('destinationState')",
+    "destinationDescription": "$input.params('destinationDescription')",
+	"destinationHistory": "$input.params('destinationHistory')",
+	"entryPrerequisites": "$input.params('entryPrerequisites')",
+	"similarPlaces": "$input.params('similarPlaces')",
+	"thingsToDo": "$input.params('thingsToDo')"
+	"seasonToVisit": "$input.params('seasonToVisit')",
+	"recForDifferentlyAbled": "$input.params('recForDifferentlyAbled')",
+	"timingsToVisit": "$input.params('timingsToVisit')",
+	"howToReach": "$input.params('howToReach')",		
+}
+
+event.destinationId,event.destinationName,event.destinationState,event.destinationDescription,event.destinationHistory,event.entryPrerequisites,event.similarPlaces,event.thingsToDo,event.seasonToVisit,event.recForDifferentlyAbled,event.timingsToVisit,event.howToReach
+
+
+
+
+
+
+z
+INSERT INTO `majorproject`.`place` (`destination_id`, `destination_name`, `destination_state`, `destination_description`, `destination_history`, `entry_prerequisites`, `similar_places`, `things_to_do`, `season_to_visit`, `rec_for_diff_abled`, `timings_to_visit`, `how_to_reach`, 
+
+
+`destination_image`, `destination_description_image`, `destination_history_image`, `similar_places_image`, `things_to_do_image`) 
+
+VALUES ('a', 'a', 'a', 'a', ' a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a');
